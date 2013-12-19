@@ -36,9 +36,9 @@
   $(document).keypress(function (evt) {
     var charCode = evt.charCode || evt.keyCode;
     switch(charCode){
-     case 112: $('#class  option:selected').prev().attr('selected', 'selected');return false; //right arrow
+     case 38: $('#class  option:selected').prev().attr('selected', 'selected');return false; //right arrow
      break;
-     case 113: $('#class  option:selected').next().attr('selected', 'selected');return false; //right arrow
+     case 40: $('#class  option:selected').next().attr('selected', 'selected');return false; //right arrow
      break;
      case 39: $('#ptype_'+current+' option:selected').next().attr('selected', 'selected');return false; //right arrow
      break;
